@@ -48,7 +48,7 @@ with st.expander("About this dashboard"):
 st.subheader("Which predictions are the most accurate?")
 
 # Load data
-data_path = Path(".") / "data" / "2022_1_5_model-fp6ggnjh.csv"
+data_path = Path(".") / "data" / "2022_1_5_1vnozc9l.csv"
 
 df = pd.read_csv(data_path)
 # Normalize each JSON column
@@ -86,7 +86,7 @@ st.title("Scatter Plot of Selected Columns")
 st.write("Select any two columns to create a scatter plot.")
 
 # Select boxes for choosing columns
-x_axis = st.selectbox("Select X-axis column", columns, index=2)
+x_axis = st.selectbox("Select X-axis column", columns, index=21)
 y_axis = st.selectbox("Select Y-axis column", columns, index=22)
 
 # Generate scatter plot using Altair
