@@ -5,7 +5,6 @@ cachetools==5.3.3
 certifi==2024.6.2
 charset-normalizer==3.3.2
 click==8.1.7
--e git+ssh://git@github.com/olliethomas/ffh-dashboard.git@95e5faf5b2fb1159c33bd82612880a5838f4d8f9#egg=ffh_dashboard
 gitdb==4.0.11
 GitPython==3.1.43
 idna==3.7
